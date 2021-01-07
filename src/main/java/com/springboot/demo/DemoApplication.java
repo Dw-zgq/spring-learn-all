@@ -15,6 +15,10 @@ public class DemoApplication {
 	}
 
 
+    /**
+     *测试
+     * @return
+     */
 	@RequestMapping("/hello")
     public String hello(){
         return "/hello";
